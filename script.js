@@ -27,3 +27,11 @@ for(i = 1; i <= n;i++){
   }
   console.log(bag)
 }
+
+for(i = 1; i <= n;i++){
+    let bag = ""
+    for(j = 1; j <= i;j++){
+        bag += j
+    }
+    console.log(bag)
+}
